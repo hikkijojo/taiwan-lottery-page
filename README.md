@@ -1,33 +1,43 @@
 # 靜態預測頁（GitHub Pages）
 
-此目錄為對外靜態預測站原始碼，部署目標：[taiwan-lottery-page](https://github.com/hikkijojo/taiwan-lottery-page)。
+對外純靜態站原始碼由 **`static-page-ui/`** Vue 專案建置輸出至此目錄；部署目標：[taiwan-lottery-page](https://github.com/hikkijojo/taiwan-lottery-page)。
 
 ## 檔案
 
 | 檔案 | 說明 |
 |------|------|
-| `index.html` | 手機版頁面殼 |
-| `assets/style.css` | 樣式 |
-| `assets/app.js` | 讀取 JSON 並渲染 |
+| `index.html` | Vue build 產物 |
+| `assets/*` | JS / CSS（hash 檔名） |
 | `predictions.json` | 執行時產生（已 gitignore） |
+| `nginx.preview.conf` | Docker 本地預覽用 |
+| `README.md` | 本說明 |
 
-## 更新流程
+> **原始碼請改 `static-page-ui/`**，勿直接編輯 build 後的 `assets/index-*.js`。
+
+## 建置
+
+```powershell
+.\scripts\build-static-page-ui.ps1
+```
+
+## 更新 JSON
 
 增量同步完成後，後端自動：
 
-1. 寫入 `predictions.json`（三彩種 pending + 近三期 evaluated）
+1. 寫入 `predictions.json`
 2. 若設定有效 `GITHUB_TOKEN`，推送整個目錄至 GitHub Pages 倉庫
 
-手動匯出：`.\scripts\export-static-page.ps1` 或 `docker compose exec api ./export-static-page`
+手動：`.\scripts\export-static-page.ps1`
 
 ## 本地預覽
 
-```bash
-cd backend/static-page
-npx serve .
-# 需先有一次 predictions.json（執行增量同步或種子還原）
+```powershell
+docker compose up -d static-preview
+# http://localhost:38581
 ```
 
-## GitHub Pages 設定
+開發熱更新：`cd static-page-ui && npm run dev` → http://localhost:38582
 
-在 `taiwan-lottery-page` 倉庫：Settings → Pages → Deploy from branch `main` / root。
+## GitHub Pages
+
+Settings → Pages → branch `main` / root
