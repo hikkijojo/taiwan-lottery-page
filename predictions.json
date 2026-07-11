@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T16:35:48+08:00",
+  "generated_at": "2026-07-11T17:28:43+08:00",
   "disclaimer": "以下號碼依歷史統計產生，僅供娛樂參考，不保證中獎。",
   "games": [
     {
@@ -609,6 +609,429 @@
             }
           ]
         }
+      ],
+      "stats": {
+        "as_of_draw_number": "115000055",
+        "as_of_draw_date": "2026-07-09",
+        "range": "all",
+        "total_draws": 1829,
+        "hot_numbers": [
+          24,
+          38,
+          3
+        ],
+        "cold_numbers": [
+          5,
+          9,
+          32
+        ],
+        "max_overdue": {
+          "number": 27,
+          "draws_since": 20
+        },
+        "frequency_top": [
+          {
+            "number": 24,
+            "count": 318,
+            "rank": 1
+          },
+          {
+            "number": 38,
+            "count": 315,
+            "rank": 2
+          },
+          {
+            "number": 3,
+            "count": 314,
+            "rank": 3
+          },
+          {
+            "number": 4,
+            "count": 312,
+            "rank": 4
+          },
+          {
+            "number": 15,
+            "count": 311,
+            "rank": 5
+          },
+          {
+            "number": 14,
+            "count": 309,
+            "rank": 6
+          },
+          {
+            "number": 29,
+            "count": 303,
+            "rank": 7
+          },
+          {
+            "number": 16,
+            "count": 300,
+            "rank": 8
+          },
+          {
+            "number": 19,
+            "count": 300,
+            "rank": 9
+          },
+          {
+            "number": 1,
+            "count": 299,
+            "rank": 10
+          },
+          {
+            "number": 7,
+            "count": 299,
+            "rank": 11
+          },
+          {
+            "number": 22,
+            "count": 296,
+            "rank": 12
+          },
+          {
+            "number": 6,
+            "count": 295,
+            "rank": 13
+          },
+          {
+            "number": 17,
+            "count": 295,
+            "rank": 14
+          },
+          {
+            "number": 25,
+            "count": 295,
+            "rank": 15
+          }
+        ],
+        "overdue_top": [
+          {
+            "number": 27,
+            "draws_since": 20
+          },
+          {
+            "number": 36,
+            "draws_since": 19
+          },
+          {
+            "number": 1,
+            "draws_since": 12
+          },
+          {
+            "number": 34,
+            "draws_since": 12
+          },
+          {
+            "number": 3,
+            "draws_since": 11
+          },
+          {
+            "number": 14,
+            "draws_since": 9
+          },
+          {
+            "number": 38,
+            "draws_since": 9
+          },
+          {
+            "number": 7,
+            "draws_since": 8
+          },
+          {
+            "number": 26,
+            "draws_since": 8
+          },
+          {
+            "number": 17,
+            "draws_since": 7
+          }
+        ],
+        "odd_even_trend": [
+          {
+            "draw_number": "115000026",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000027",
+            "odd": 5,
+            "even": 1
+          },
+          {
+            "draw_number": "115000028",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000029",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000030",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000031",
+            "odd": 1,
+            "even": 5
+          },
+          {
+            "draw_number": "115000032",
+            "odd": 5,
+            "even": 1
+          },
+          {
+            "draw_number": "115000033",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000034",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000035",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000036",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000037",
+            "odd": 2,
+            "even": 4
+          },
+          {
+            "draw_number": "115000038",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000039",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000040",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000041",
+            "odd": 1,
+            "even": 5
+          },
+          {
+            "draw_number": "115000042",
+            "odd": 5,
+            "even": 1
+          },
+          {
+            "draw_number": "115000043",
+            "odd": 2,
+            "even": 4
+          },
+          {
+            "draw_number": "115000044",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000045",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000046",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000047",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000048",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000049",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000050",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000051",
+            "odd": 1,
+            "even": 5
+          },
+          {
+            "draw_number": "115000052",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000053",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000054",
+            "odd": 2,
+            "even": 4
+          },
+          {
+            "draw_number": "115000055",
+            "odd": 3,
+            "even": 3
+          }
+        ]
+      },
+      "recent_draws": [
+        {
+          "draw_number": "115000055",
+          "draw_date": "2026-07-09",
+          "numbers": [
+            10,
+            22,
+            24,
+            29,
+            35,
+            37
+          ],
+          "special": 6
+        },
+        {
+          "draw_number": "115000054",
+          "draw_date": "2026-07-06",
+          "numbers": [
+            4,
+            12,
+            15,
+            24,
+            30,
+            31
+          ],
+          "special": 1
+        },
+        {
+          "draw_number": "115000053",
+          "draw_date": "2026-07-02",
+          "numbers": [
+            2,
+            11,
+            13,
+            21,
+            22,
+            35
+          ],
+          "special": 3
+        },
+        {
+          "draw_number": "115000052",
+          "draw_date": "2026-06-29",
+          "numbers": [
+            5,
+            6,
+            9,
+            15,
+            16,
+            33
+          ],
+          "special": 5
+        },
+        {
+          "draw_number": "115000051",
+          "draw_date": "2026-06-25",
+          "numbers": [
+            6,
+            10,
+            20,
+            25,
+            28,
+            32
+          ],
+          "special": 1
+        },
+        {
+          "draw_number": "115000050",
+          "draw_date": "2026-06-22",
+          "numbers": [
+            11,
+            13,
+            18,
+            19,
+            21,
+            24
+          ],
+          "special": 7
+        },
+        {
+          "draw_number": "115000049",
+          "draw_date": "2026-06-18",
+          "numbers": [
+            2,
+            8,
+            9,
+            15,
+            18,
+            23
+          ],
+          "special": 4
+        },
+        {
+          "draw_number": "115000048",
+          "draw_date": "2026-06-15",
+          "numbers": [
+            4,
+            17,
+            19,
+            25,
+            28,
+            29
+          ],
+          "special": 6
+        },
+        {
+          "draw_number": "115000047",
+          "draw_date": "2026-06-11",
+          "numbers": [
+            7,
+            22,
+            23,
+            24,
+            26,
+            33
+          ],
+          "special": 8
+        },
+        {
+          "draw_number": "115000046",
+          "draw_date": "2026-06-08",
+          "numbers": [
+            5,
+            7,
+            14,
+            25,
+            28,
+            38
+          ],
+          "special": 5
+        }
       ]
     },
     {
@@ -630,7 +1053,7 @@
               34,
               42
             ],
-            "special": 34,
+            "special": null,
             "status": "pending"
           },
           {
@@ -645,7 +1068,7 @@
               43,
               46
             ],
-            "special": 8,
+            "special": null,
             "status": "pending"
           },
           {
@@ -660,7 +1083,7 @@
               32,
               44
             ],
-            "special": 49,
+            "special": null,
             "status": "pending"
           },
           {
@@ -675,7 +1098,7 @@
               42,
               46
             ],
-            "special": 16,
+            "special": null,
             "status": "pending"
           },
           {
@@ -690,7 +1113,7 @@
               38,
               41
             ],
-            "special": 8,
+            "special": null,
             "status": "pending"
           },
           {
@@ -705,7 +1128,7 @@
               44,
               48
             ],
-            "special": 12,
+            "special": null,
             "status": "pending"
           }
         ]
@@ -728,10 +1151,9 @@
                 38,
                 43
               ],
-              "special": 11,
+              "special": null,
               "status": "evaluated",
               "main_hit": 0,
-              "special_hit": false,
               "actual_numbers": [
                 3,
                 4,
@@ -754,10 +1176,9 @@
                 21,
                 48
               ],
-              "special": 15,
+              "special": null,
               "status": "evaluated",
               "main_hit": 0,
-              "special_hit": false,
               "actual_numbers": [
                 3,
                 4,
@@ -780,10 +1201,9 @@
                 29,
                 43
               ],
-              "special": 11,
+              "special": null,
               "status": "evaluated",
               "main_hit": 3,
-              "special_hit": false,
               "actual_numbers": [
                 3,
                 4,
@@ -806,10 +1226,9 @@
                 27,
                 31
               ],
-              "special": 16,
+              "special": null,
               "status": "evaluated",
               "main_hit": 1,
-              "special_hit": false,
               "actual_numbers": [
                 3,
                 4,
@@ -832,10 +1251,9 @@
                 38,
                 47
               ],
-              "special": 28,
+              "special": null,
               "status": "evaluated",
               "main_hit": 1,
-              "special_hit": false,
               "actual_numbers": [
                 3,
                 4,
@@ -858,10 +1276,9 @@
                 47,
                 48
               ],
-              "special": 4,
+              "special": null,
               "status": "evaluated",
               "main_hit": 1,
-              "special_hit": false,
               "actual_numbers": [
                 3,
                 4,
@@ -891,10 +1308,9 @@
                 37,
                 49
               ],
-              "special": 24,
+              "special": null,
               "status": "evaluated",
               "main_hit": 1,
-              "special_hit": false,
               "actual_numbers": [
                 8,
                 13,
@@ -917,10 +1333,9 @@
                 39,
                 44
               ],
-              "special": 38,
+              "special": null,
               "status": "evaluated",
               "main_hit": 0,
-              "special_hit": false,
               "actual_numbers": [
                 8,
                 13,
@@ -943,10 +1358,9 @@
                 47,
                 49
               ],
-              "special": 6,
+              "special": null,
               "status": "evaluated",
               "main_hit": 0,
-              "special_hit": false,
               "actual_numbers": [
                 8,
                 13,
@@ -969,10 +1383,9 @@
                 18,
                 43
               ],
-              "special": 46,
+              "special": null,
               "status": "evaluated",
               "main_hit": 1,
-              "special_hit": false,
               "actual_numbers": [
                 8,
                 13,
@@ -995,10 +1408,9 @@
                 34,
                 35
               ],
-              "special": 29,
+              "special": null,
               "status": "evaluated",
               "main_hit": 0,
-              "special_hit": false,
               "actual_numbers": [
                 8,
                 13,
@@ -1021,10 +1433,9 @@
                 39,
                 49
               ],
-              "special": 38,
+              "special": null,
               "status": "evaluated",
               "main_hit": 0,
-              "special_hit": false,
               "actual_numbers": [
                 8,
                 13,
@@ -1054,10 +1465,9 @@
                 33,
                 47
               ],
-              "special": 5,
+              "special": null,
               "status": "evaluated",
               "main_hit": 1,
-              "special_hit": false,
               "actual_numbers": [
                 11,
                 16,
@@ -1080,10 +1490,9 @@
                 43,
                 45
               ],
-              "special": 21,
+              "special": null,
               "status": "evaluated",
               "main_hit": 0,
-              "special_hit": false,
               "actual_numbers": [
                 11,
                 16,
@@ -1106,10 +1515,9 @@
                 37,
                 46
               ],
-              "special": 39,
+              "special": null,
               "status": "evaluated",
               "main_hit": 0,
-              "special_hit": false,
               "actual_numbers": [
                 11,
                 16,
@@ -1132,10 +1540,9 @@
                 31,
                 39
               ],
-              "special": 12,
+              "special": null,
               "status": "evaluated",
               "main_hit": 1,
-              "special_hit": false,
               "actual_numbers": [
                 11,
                 16,
@@ -1158,10 +1565,9 @@
                 24,
                 35
               ],
-              "special": 4,
+              "special": null,
               "status": "evaluated",
               "main_hit": 1,
-              "special_hit": false,
               "actual_numbers": [
                 11,
                 16,
@@ -1184,10 +1590,9 @@
                 42,
                 47
               ],
-              "special": 28,
+              "special": null,
               "status": "evaluated",
               "main_hit": 1,
-              "special_hit": false,
               "actual_numbers": [
                 11,
                 16,
@@ -1199,6 +1604,429 @@
               "actual_special": 15
             }
           ]
+        }
+      ],
+      "stats": {
+        "as_of_draw_number": "115000069",
+        "as_of_draw_date": "2026-07-10",
+        "range": "all",
+        "total_draws": 2151,
+        "hot_numbers": [
+          8,
+          15,
+          2
+        ],
+        "cold_numbers": [
+          6,
+          4,
+          9
+        ],
+        "max_overdue": {
+          "number": 5,
+          "draws_since": 28
+        },
+        "frequency_top": [
+          {
+            "number": 8,
+            "count": 292,
+            "rank": 1
+          },
+          {
+            "number": 15,
+            "count": 285,
+            "rank": 2
+          },
+          {
+            "number": 2,
+            "count": 284,
+            "rank": 3
+          },
+          {
+            "number": 23,
+            "count": 283,
+            "rank": 4
+          },
+          {
+            "number": 1,
+            "count": 282,
+            "rank": 5
+          },
+          {
+            "number": 41,
+            "count": 282,
+            "rank": 6
+          },
+          {
+            "number": 35,
+            "count": 281,
+            "rank": 7
+          },
+          {
+            "number": 11,
+            "count": 280,
+            "rank": 8
+          },
+          {
+            "number": 22,
+            "count": 279,
+            "rank": 9
+          },
+          {
+            "number": 43,
+            "count": 276,
+            "rank": 10
+          },
+          {
+            "number": 30,
+            "count": 274,
+            "rank": 11
+          },
+          {
+            "number": 36,
+            "count": 273,
+            "rank": 12
+          },
+          {
+            "number": 13,
+            "count": 270,
+            "rank": 13
+          },
+          {
+            "number": 32,
+            "count": 270,
+            "rank": 14
+          },
+          {
+            "number": 39,
+            "count": 270,
+            "rank": 15
+          }
+        ],
+        "overdue_top": [
+          {
+            "number": 5,
+            "draws_since": 28
+          },
+          {
+            "number": 7,
+            "draws_since": 20
+          },
+          {
+            "number": 17,
+            "draws_since": 19
+          },
+          {
+            "number": 43,
+            "draws_since": 16
+          },
+          {
+            "number": 22,
+            "draws_since": 15
+          },
+          {
+            "number": 38,
+            "draws_since": 15
+          },
+          {
+            "number": 21,
+            "draws_since": 14
+          },
+          {
+            "number": 27,
+            "draws_since": 13
+          },
+          {
+            "number": 26,
+            "draws_since": 12
+          },
+          {
+            "number": 31,
+            "draws_since": 12
+          }
+        ],
+        "odd_even_trend": [
+          {
+            "draw_number": "115000040",
+            "odd": 5,
+            "even": 1
+          },
+          {
+            "draw_number": "115000041",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000042",
+            "odd": 1,
+            "even": 5
+          },
+          {
+            "draw_number": "115000043",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000044",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000045",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000046",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000047",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000048",
+            "odd": 1,
+            "even": 5
+          },
+          {
+            "draw_number": "115000049",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000050",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000051",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000052",
+            "odd": 1,
+            "even": 5
+          },
+          {
+            "draw_number": "115000053",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000054",
+            "odd": 1,
+            "even": 5
+          },
+          {
+            "draw_number": "115000055",
+            "odd": 2,
+            "even": 4
+          },
+          {
+            "draw_number": "115000056",
+            "odd": 5,
+            "even": 1
+          },
+          {
+            "draw_number": "115000057",
+            "odd": 4,
+            "even": 2
+          },
+          {
+            "draw_number": "115000058",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000059",
+            "odd": 1,
+            "even": 5
+          },
+          {
+            "draw_number": "115000060",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000061",
+            "odd": 2,
+            "even": 4
+          },
+          {
+            "draw_number": "115000062",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000063",
+            "odd": 2,
+            "even": 4
+          },
+          {
+            "draw_number": "115000064",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000065",
+            "odd": 5,
+            "even": 1
+          },
+          {
+            "draw_number": "115000066",
+            "odd": 2,
+            "even": 4
+          },
+          {
+            "draw_number": "115000067",
+            "odd": 5,
+            "even": 1
+          },
+          {
+            "draw_number": "115000068",
+            "odd": 3,
+            "even": 3
+          },
+          {
+            "draw_number": "115000069",
+            "odd": 4,
+            "even": 2
+          }
+        ]
+      },
+      "recent_draws": [
+        {
+          "draw_number": "115000069",
+          "draw_date": "2026-07-10",
+          "numbers": [
+            3,
+            4,
+            15,
+            18,
+            29,
+            49
+          ],
+          "special": 13
+        },
+        {
+          "draw_number": "115000068",
+          "draw_date": "2026-07-07",
+          "numbers": [
+            8,
+            13,
+            15,
+            18,
+            19,
+            42
+          ],
+          "special": 37
+        },
+        {
+          "draw_number": "115000067",
+          "draw_date": "2026-07-03",
+          "numbers": [
+            11,
+            16,
+            19,
+            23,
+            39,
+            47
+          ],
+          "special": 15
+        },
+        {
+          "draw_number": "115000066",
+          "draw_date": "2026-06-30",
+          "numbers": [
+            4,
+            10,
+            16,
+            29,
+            36,
+            45
+          ],
+          "special": 14
+        },
+        {
+          "draw_number": "115000065",
+          "draw_date": "2026-06-26",
+          "numbers": [
+            11,
+            19,
+            23,
+            24,
+            29,
+            41
+          ],
+          "special": 1
+        },
+        {
+          "draw_number": "115000064",
+          "draw_date": "2026-06-23",
+          "numbers": [
+            12,
+            18,
+            29,
+            33,
+            34,
+            39
+          ],
+          "special": 30
+        },
+        {
+          "draw_number": "115000063",
+          "draw_date": "2026-06-19",
+          "numbers": [
+            4,
+            12,
+            28,
+            29,
+            35,
+            48
+          ],
+          "special": 38
+        },
+        {
+          "draw_number": "115000062",
+          "draw_date": "2026-06-16",
+          "numbers": [
+            1,
+            2,
+            9,
+            11,
+            28,
+            36
+          ],
+          "special": 41
+        },
+        {
+          "draw_number": "115000061",
+          "draw_date": "2026-06-12",
+          "numbers": [
+            1,
+            6,
+            16,
+            20,
+            34,
+            49
+          ],
+          "special": 3
+        },
+        {
+          "draw_number": "115000060",
+          "draw_date": "2026-06-09",
+          "numbers": [
+            13,
+            18,
+            25,
+            39,
+            40,
+            46
+          ],
+          "special": 31
         }
       ]
     },
@@ -1711,6 +2539,409 @@
                 34
               ]
             }
+          ]
+        }
+      ],
+      "stats": {
+        "as_of_draw_number": "115000167",
+        "as_of_draw_date": "2026-07-10",
+        "range": "all",
+        "total_draws": 5911,
+        "hot_numbers": [
+          37,
+          5,
+          17
+        ],
+        "cold_numbers": [
+          33,
+          30,
+          3
+        ],
+        "max_overdue": {
+          "number": 19,
+          "draws_since": 34
+        },
+        "frequency_top": [
+          {
+            "number": 37,
+            "count": 820,
+            "rank": 1
+          },
+          {
+            "number": 5,
+            "count": 804,
+            "rank": 2
+          },
+          {
+            "number": 17,
+            "count": 796,
+            "rank": 3
+          },
+          {
+            "number": 34,
+            "count": 794,
+            "rank": 4
+          },
+          {
+            "number": 1,
+            "count": 793,
+            "rank": 5
+          },
+          {
+            "number": 4,
+            "count": 790,
+            "rank": 6
+          },
+          {
+            "number": 36,
+            "count": 787,
+            "rank": 7
+          },
+          {
+            "number": 27,
+            "count": 785,
+            "rank": 8
+          },
+          {
+            "number": 23,
+            "count": 782,
+            "rank": 9
+          },
+          {
+            "number": 38,
+            "count": 780,
+            "rank": 10
+          },
+          {
+            "number": 25,
+            "count": 775,
+            "rank": 11
+          },
+          {
+            "number": 12,
+            "count": 768,
+            "rank": 12
+          },
+          {
+            "number": 20,
+            "count": 766,
+            "rank": 13
+          },
+          {
+            "number": 14,
+            "count": 765,
+            "rank": 14
+          },
+          {
+            "number": 35,
+            "count": 765,
+            "rank": 15
+          }
+        ],
+        "overdue_top": [
+          {
+            "number": 19,
+            "draws_since": 34
+          },
+          {
+            "number": 39,
+            "draws_since": 26
+          },
+          {
+            "number": 16,
+            "draws_since": 20
+          },
+          {
+            "number": 20,
+            "draws_since": 19
+          },
+          {
+            "number": 25,
+            "draws_since": 15
+          },
+          {
+            "number": 17,
+            "draws_since": 14
+          },
+          {
+            "number": 33,
+            "draws_since": 14
+          },
+          {
+            "number": 29,
+            "draws_since": 13
+          },
+          {
+            "number": 4,
+            "draws_since": 11
+          },
+          {
+            "number": 32,
+            "draws_since": 11
+          }
+        ],
+        "odd_even_trend": [
+          {
+            "draw_number": "115000138",
+            "odd": 3,
+            "even": 2
+          },
+          {
+            "draw_number": "115000139",
+            "odd": 1,
+            "even": 4
+          },
+          {
+            "draw_number": "115000140",
+            "odd": 2,
+            "even": 3
+          },
+          {
+            "draw_number": "115000141",
+            "odd": 3,
+            "even": 2
+          },
+          {
+            "draw_number": "115000142",
+            "odd": 3,
+            "even": 2
+          },
+          {
+            "draw_number": "115000143",
+            "odd": 2,
+            "even": 3
+          },
+          {
+            "draw_number": "115000144",
+            "odd": 1,
+            "even": 4
+          },
+          {
+            "draw_number": "115000145",
+            "odd": 0,
+            "even": 5
+          },
+          {
+            "draw_number": "115000146",
+            "odd": 5,
+            "even": 0
+          },
+          {
+            "draw_number": "115000147",
+            "odd": 2,
+            "even": 3
+          },
+          {
+            "draw_number": "115000148",
+            "odd": 2,
+            "even": 3
+          },
+          {
+            "draw_number": "115000149",
+            "odd": 5,
+            "even": 0
+          },
+          {
+            "draw_number": "115000150",
+            "odd": 3,
+            "even": 2
+          },
+          {
+            "draw_number": "115000151",
+            "odd": 3,
+            "even": 2
+          },
+          {
+            "draw_number": "115000152",
+            "odd": 2,
+            "even": 3
+          },
+          {
+            "draw_number": "115000153",
+            "odd": 4,
+            "even": 1
+          },
+          {
+            "draw_number": "115000154",
+            "odd": 3,
+            "even": 2
+          },
+          {
+            "draw_number": "115000155",
+            "odd": 0,
+            "even": 5
+          },
+          {
+            "draw_number": "115000156",
+            "odd": 2,
+            "even": 3
+          },
+          {
+            "draw_number": "115000157",
+            "odd": 2,
+            "even": 3
+          },
+          {
+            "draw_number": "115000158",
+            "odd": 4,
+            "even": 1
+          },
+          {
+            "draw_number": "115000159",
+            "odd": 2,
+            "even": 3
+          },
+          {
+            "draw_number": "115000160",
+            "odd": 2,
+            "even": 3
+          },
+          {
+            "draw_number": "115000161",
+            "odd": 4,
+            "even": 1
+          },
+          {
+            "draw_number": "115000162",
+            "odd": 3,
+            "even": 2
+          },
+          {
+            "draw_number": "115000163",
+            "odd": 1,
+            "even": 4
+          },
+          {
+            "draw_number": "115000164",
+            "odd": 3,
+            "even": 2
+          },
+          {
+            "draw_number": "115000165",
+            "odd": 3,
+            "even": 2
+          },
+          {
+            "draw_number": "115000166",
+            "odd": 2,
+            "even": 3
+          },
+          {
+            "draw_number": "115000167",
+            "odd": 4,
+            "even": 1
+          }
+        ]
+      },
+      "recent_draws": [
+        {
+          "draw_number": "115000167",
+          "draw_date": "2026-07-10",
+          "numbers": [
+            5,
+            13,
+            15,
+            21,
+            26
+          ]
+        },
+        {
+          "draw_number": "115000166",
+          "draw_date": "2026-07-09",
+          "numbers": [
+            18,
+            22,
+            28,
+            35,
+            37
+          ]
+        },
+        {
+          "draw_number": "115000165",
+          "draw_date": "2026-07-08",
+          "numbers": [
+            1,
+            11,
+            23,
+            30,
+            34
+          ]
+        },
+        {
+          "draw_number": "115000164",
+          "draw_date": "2026-07-07",
+          "numbers": [
+            9,
+            21,
+            24,
+            27,
+            34
+          ]
+        },
+        {
+          "draw_number": "115000163",
+          "draw_date": "2026-07-06",
+          "numbers": [
+            1,
+            10,
+            12,
+            14,
+            38
+          ]
+        },
+        {
+          "draw_number": "115000162",
+          "draw_date": "2026-07-04",
+          "numbers": [
+            2,
+            10,
+            15,
+            31,
+            37
+          ]
+        },
+        {
+          "draw_number": "115000161",
+          "draw_date": "2026-07-03",
+          "numbers": [
+            7,
+            11,
+            31,
+            36,
+            37
+          ]
+        },
+        {
+          "draw_number": "115000160",
+          "draw_date": "2026-07-02",
+          "numbers": [
+            1,
+            6,
+            8,
+            13,
+            30
+          ]
+        },
+        {
+          "draw_number": "115000159",
+          "draw_date": "2026-07-01",
+          "numbers": [
+            1,
+            3,
+            12,
+            14,
+            34
+          ]
+        },
+        {
+          "draw_number": "115000158",
+          "draw_date": "2026-06-30",
+          "numbers": [
+            3,
+            11,
+            23,
+            26,
+            37
           ]
         }
       ]
