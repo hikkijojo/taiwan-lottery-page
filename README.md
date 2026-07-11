@@ -24,8 +24,10 @@
 
 增量同步完成後，後端自動：
 
-1. 寫入 `predictions.json`
+1. 寫入 `predictions.json`（含 pending、近 3 期 evaluated、**stats** 統計摘要、**recent_draws** 近 10 期開獎）
 2. 若設定有效 `GITHUB_TOKEN`，推送整個目錄至 GitHub Pages 倉庫
+
+靜態站三個內容 tab：**下期預測**、**近三期命中**、**統計分析**（漢堡選單標題較完整）。大樂透預測僅 6 主號（不預測特別號）；詳見 [統計快照與回測規格](../../docs/統計快照與回測規格.md) §10.4。
 
 手動：`.\scripts\export-static-page.ps1`
 
