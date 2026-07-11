@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-07-11T17:52:44+08:00",
+  "generated_at": "2026-07-11T17:54:15+08:00",
   "disclaimer": "以下號碼依歷史統計產生，僅供娛樂參考，不保證中獎。",
   "games": [
     {
       "game_type": "power",
       "game_name": "威力彩",
       "draw_info": {
-        "kind": "last",
-        "draw_date": "2026-07-09"
+        "kind": "next",
+        "draw_date": "2026-07-13",
+        "jackpot_pool_ntd": 83976620
       },
       "pending": {
         "based_on_draw_number": "115000055",
@@ -1042,8 +1043,9 @@
       "game_type": "lotto",
       "game_name": "大樂透",
       "draw_info": {
-        "kind": "last",
-        "draw_date": "2026-07-10"
+        "kind": "next",
+        "draw_date": "2026-07-14",
+        "jackpot_pool_ntd": 540339108
       },
       "pending": {
         "based_on_draw_number": "115000069",
@@ -2042,8 +2044,9 @@
       "game_type": "539",
       "game_name": "今彩539",
       "draw_info": {
-        "kind": "last",
-        "draw_date": "2026-07-10"
+        "kind": "next",
+        "draw_date": "2026-07-11",
+        "jackpot_pool_ntd": 8000000
       },
       "pending": {
         "based_on_draw_number": "115000167",
