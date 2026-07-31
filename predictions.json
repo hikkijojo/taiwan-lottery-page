@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T18:00:01+08:00",
+  "generated_at": "2026-07-31T22:00:02+08:00",
   "disclaimer": "以下號碼依歷史統計產生，僅供娛樂參考，不保證中獎。",
   "games": [
     {
@@ -1183,26 +1183,26 @@
       "game_type": "lotto",
       "game_name": "大樂透",
       "draw_info": {
-        "next_draw_date": "2026-07-31",
-        "next_draw_number": "115000075",
+        "next_draw_date": "2026-08-04",
+        "next_draw_number": "115000076",
         "jackpot_kind": "guaranteed",
         "jackpot_value": "1.0億"
       },
       "pending": {
-        "based_on_draw_number": "115000074",
-        "target_draw_number": "115000075",
+        "based_on_draw_number": "115000075",
+        "target_draw_number": "115000076",
         "predictions": [
           {
             "strategy": "blend_30_70",
             "strategy_label": "遺漏加權策略",
             "strategy_summary": "依全部歷史出現頻率 30% 與遺漏期數 70% 加權抽樣（固定種子）",
             "numbers": [
-              2,
-              5,
               12,
-              14,
-              45,
-              48
+              17,
+              21,
+              24,
+              31,
+              47
             ],
             "special": null,
             "status": "pending"
@@ -1212,12 +1212,12 @@
             "strategy_label": "熱號策略",
             "strategy_summary": "依全部歷史出現次數，選取頻率最高的號碼",
             "numbers": [
-              5,
-              16,
-              18,
-              35,
-              37,
-              42
+              6,
+              23,
+              25,
+              26,
+              31,
+              33
             ],
             "special": null,
             "status": "pending"
@@ -1227,12 +1227,12 @@
             "strategy_label": "冷號策略",
             "strategy_summary": "依全部歷史出現次數，選取頻率最低的號碼",
             "numbers": [
-              9,
-              22,
-              23,
-              38,
-              41,
-              42
+              4,
+              24,
+              25,
+              27,
+              36,
+              47
             ],
             "special": null,
             "status": "pending"
@@ -1242,12 +1242,12 @@
             "strategy_label": "遺漏策略",
             "strategy_summary": "依目前連續未開期數，選取遺漏最久的號碼",
             "numbers": [
-              5,
-              16,
+              7,
+              15,
               21,
               30,
               31,
-              45
+              49
             ],
             "special": null,
             "status": "pending"
@@ -1257,12 +1257,12 @@
             "strategy_label": "均衡策略",
             "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
             "numbers": [
-              2,
               4,
               7,
               9,
-              14,
-              22
+              11,
+              22,
+              30
             ],
             "special": null,
             "status": "pending"
@@ -1272,12 +1272,12 @@
             "strategy_label": "加權隨機策略",
             "strategy_summary": "依出現頻率加權抽樣（固定種子，結果可重現）",
             "numbers": [
-              1,
-              2,
-              3,
-              12,
-              20,
-              37
+              7,
+              16,
+              23,
+              34,
+              40,
+              46
             ],
             "special": null,
             "status": "pending"
@@ -1285,36 +1285,235 @@
         ],
         "blind_zone": {
           "numbers": [
-            6,
+            1,
+            2,
+            3,
+            5,
             8,
             10,
-            11,
             13,
-            15,
-            17,
+            14,
+            18,
             19,
-            24,
-            25,
-            26,
-            27,
+            20,
             28,
             29,
             32,
-            33,
-            34,
-            36,
+            35,
+            37,
+            38,
             39,
-            40,
+            41,
+            42,
             43,
             44,
-            46,
-            47,
-            49
+            45,
+            48
           ],
-          "union_count": 24
+          "union_count": 25
         }
       },
       "recent_evaluated": [
+        {
+          "based_on_draw_number": "115000074",
+          "target_draw_number": "115000075",
+          "target_draw_date": "2026-07-31",
+          "predictions": [
+            {
+              "strategy": "blend_30_70",
+              "strategy_label": "遺漏加權策略",
+              "strategy_summary": "依全部歷史出現頻率 30% 與遺漏期數 70% 加權抽樣（固定種子）",
+              "numbers": [
+                2,
+                5,
+                12,
+                14,
+                45,
+                48
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "actual_numbers": [
+                11,
+                20,
+                23,
+                33,
+                34,
+                44
+              ],
+              "actual_special": 10,
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "hot",
+              "strategy_label": "熱號策略",
+              "strategy_summary": "依全部歷史出現次數，選取頻率最高的號碼",
+              "numbers": [
+                5,
+                16,
+                18,
+                35,
+                37,
+                42
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "actual_numbers": [
+                11,
+                20,
+                23,
+                33,
+                34,
+                44
+              ],
+              "actual_special": 10,
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "cold",
+              "strategy_label": "冷號策略",
+              "strategy_summary": "依全部歷史出現次數，選取頻率最低的號碼",
+              "numbers": [
+                9,
+                22,
+                23,
+                38,
+                41,
+                42
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 1,
+              "actual_numbers": [
+                11,
+                20,
+                23,
+                33,
+                34,
+                44
+              ],
+              "actual_special": 10,
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "overdue",
+              "strategy_label": "遺漏策略",
+              "strategy_summary": "依目前連續未開期數，選取遺漏最久的號碼",
+              "numbers": [
+                5,
+                16,
+                21,
+                30,
+                31,
+                45
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "actual_numbers": [
+                11,
+                20,
+                23,
+                33,
+                34,
+                44
+              ],
+              "actual_special": 10,
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "balanced",
+              "strategy_label": "均衡策略",
+              "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
+              "numbers": [
+                2,
+                4,
+                7,
+                9,
+                14,
+                22
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "actual_numbers": [
+                11,
+                20,
+                23,
+                33,
+                34,
+                44
+              ],
+              "actual_special": 10,
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "weighted_random",
+              "strategy_label": "加權隨機策略",
+              "strategy_summary": "依出現頻率加權抽樣（固定種子，結果可重現）",
+              "numbers": [
+                1,
+                2,
+                3,
+                12,
+                20,
+                37
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 1,
+              "actual_numbers": [
+                11,
+                20,
+                23,
+                33,
+                34,
+                44
+              ],
+              "actual_special": 10,
+              "prize_tier": "none"
+            }
+          ],
+          "blind_zone": {
+            "numbers": [
+              6,
+              8,
+              10,
+              11,
+              13,
+              15,
+              17,
+              19,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              32,
+              33,
+              34,
+              36,
+              39,
+              40,
+              43,
+              44,
+              46,
+              47,
+              49
+            ],
+            "union_count": 24,
+            "actual_hits": [
+              11,
+              33,
+              34,
+              44
+            ],
+            "hit_count": 4
+          }
+        },
         {
           "based_on_draw_number": "115000073",
           "target_draw_number": "115000074",
@@ -1708,206 +1907,13 @@
             ],
             "hit_count": 3
           }
-        },
-        {
-          "based_on_draw_number": "115000071",
-          "target_draw_number": "115000072",
-          "target_draw_date": "2026-07-21",
-          "predictions": [
-            {
-              "strategy": "blend_30_70",
-              "strategy_label": "遺漏加權策略",
-              "strategy_summary": "依全部歷史出現頻率 30% 與遺漏期數 70% 加權抽樣（固定種子）",
-              "numbers": [
-                5,
-                16,
-                18,
-                23,
-                41,
-                45
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "actual_numbers": [
-                2,
-                8,
-                15,
-                26,
-                35,
-                46
-              ],
-              "actual_special": 11,
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "hot",
-              "strategy_label": "熱號策略",
-              "strategy_summary": "依全部歷史出現次數，選取頻率最高的號碼",
-              "numbers": [
-                9,
-                19,
-                22,
-                24,
-                26,
-                45
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 1,
-              "actual_numbers": [
-                2,
-                8,
-                15,
-                26,
-                35,
-                46
-              ],
-              "actual_special": 11,
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "cold",
-              "strategy_label": "冷號策略",
-              "strategy_summary": "依全部歷史出現次數，選取頻率最低的號碼",
-              "numbers": [
-                6,
-                25,
-                28,
-                29,
-                40,
-                47
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "actual_numbers": [
-                2,
-                8,
-                15,
-                26,
-                35,
-                46
-              ],
-              "actual_special": 11,
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "overdue",
-              "strategy_label": "遺漏策略",
-              "strategy_summary": "依目前連續未開期數，選取遺漏最久的號碼",
-              "numbers": [
-                28,
-                31,
-                33,
-                35,
-                38,
-                39
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 1,
-              "actual_numbers": [
-                2,
-                8,
-                15,
-                26,
-                35,
-                46
-              ],
-              "actual_special": 11,
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "balanced",
-              "strategy_label": "均衡策略",
-              "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
-              "numbers": [
-                8,
-                9,
-                21,
-                22,
-                34,
-                44
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 1,
-              "actual_numbers": [
-                2,
-                8,
-                15,
-                26,
-                35,
-                46
-              ],
-              "actual_special": 11,
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "weighted_random",
-              "strategy_label": "加權隨機策略",
-              "strategy_summary": "依出現頻率加權抽樣（固定種子，結果可重現）",
-              "numbers": [
-                4,
-                6,
-                13,
-                33,
-                37,
-                48
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "actual_numbers": [
-                2,
-                8,
-                15,
-                26,
-                35,
-                46
-              ],
-              "actual_special": 11,
-              "prize_tier": "none"
-            }
-          ],
-          "blind_zone": {
-            "numbers": [
-              1,
-              2,
-              3,
-              7,
-              10,
-              11,
-              12,
-              14,
-              15,
-              17,
-              20,
-              27,
-              30,
-              32,
-              36,
-              42,
-              43,
-              46,
-              49
-            ],
-            "union_count": 30,
-            "actual_hits": [
-              2,
-              15,
-              46
-            ],
-            "hit_count": 3
-          }
         }
       ],
       "stats": {
-        "as_of_draw_number": "115000074",
-        "as_of_draw_date": "2026-07-28",
+        "as_of_draw_number": "115000075",
+        "as_of_draw_date": "2026-07-31",
         "range": "all",
-        "total_draws": 2156,
+        "total_draws": 2157,
         "hot_numbers": [
           8,
           15,
@@ -1920,7 +1926,7 @@
         ],
         "max_overdue": {
           "number": 5,
-          "draws_since": 33
+          "draws_since": 34
         },
         "frequency_top": [
           {
@@ -1939,12 +1945,12 @@
             "rank": 3
           },
           {
-            "number": 1,
-            "count": 283,
+            "number": 23,
+            "count": 284,
             "rank": 4
           },
           {
-            "number": 23,
+            "number": 1,
             "count": 283,
             "rank": 5
           },
@@ -1960,7 +1966,7 @@
           },
           {
             "number": 11,
-            "count": 280,
+            "count": 281,
             "rank": 8
           },
           {
@@ -2002,51 +2008,46 @@
         "overdue_top": [
           {
             "number": 5,
-            "draws_since": 33
+            "draws_since": 34
           },
           {
             "number": 7,
-            "draws_since": 25
+            "draws_since": 26
           },
           {
             "number": 22,
-            "draws_since": 20
+            "draws_since": 21
           },
           {
             "number": 38,
-            "draws_since": 20
+            "draws_since": 21
           },
           {
             "number": 21,
-            "draws_since": 19
+            "draws_since": 20
           },
           {
             "number": 31,
-            "draws_since": 17
+            "draws_since": 18
           },
           {
             "number": 37,
-            "draws_since": 16
+            "draws_since": 17
           },
           {
             "number": 30,
-            "draws_since": 15
+            "draws_since": 16
           },
           {
             "number": 40,
-            "draws_since": 14
+            "draws_since": 15
           },
           {
-            "number": 20,
+            "number": 9,
             "draws_since": 13
           }
         ],
         "odd_even_trend": [
-          {
-            "draw_number": "115000045",
-            "odd": 3,
-            "even": 3
-          },
           {
             "draw_number": "115000046",
             "odd": 3,
@@ -2191,10 +2192,28 @@
             "draw_number": "115000074",
             "odd": 2,
             "even": 4
+          },
+          {
+            "draw_number": "115000075",
+            "odd": 3,
+            "even": 3
           }
         ]
       },
       "recent_draws": [
+        {
+          "draw_number": "115000075",
+          "draw_date": "2026-07-31",
+          "numbers": [
+            11,
+            20,
+            23,
+            33,
+            34,
+            44
+          ],
+          "special": 10
+        },
         {
           "draw_number": "115000074",
           "draw_date": "2026-07-28",
@@ -2311,19 +2330,6 @@
             45
           ],
           "special": 14
-        },
-        {
-          "draw_number": "115000065",
-          "draw_date": "2026-06-26",
-          "numbers": [
-            11,
-            19,
-            23,
-            24,
-            29,
-            41
-          ],
-          "special": 1
         }
       ]
     },
@@ -2331,25 +2337,25 @@
       "game_type": "539",
       "game_name": "今彩539",
       "draw_info": {
-        "next_draw_date": "2026-07-31",
-        "next_draw_number": "115000185",
+        "next_draw_date": "2026-08-01",
+        "next_draw_number": "115000186",
         "jackpot_kind": "fixed",
         "jackpot_value": "800萬"
       },
       "pending": {
-        "based_on_draw_number": "115000184",
-        "target_draw_number": "115000185",
+        "based_on_draw_number": "115000185",
+        "target_draw_number": "115000186",
         "predictions": [
           {
             "strategy": "rank_mid",
             "strategy_label": "中位排名策略",
             "strategy_summary": "依全部歷史出現次數排名，加權偏好中間段號碼（避開極熱與極冷）",
             "numbers": [
-              11,
-              22,
-              27,
-              32,
-              33
+              10,
+              12,
+              25,
+              26,
+              31
             ],
             "special": null,
             "status": "pending"
@@ -2359,10 +2365,10 @@
             "strategy_label": "熱號策略",
             "strategy_summary": "依全部歷史出現次數，選取頻率最高的號碼",
             "numbers": [
-              4,
-              8,
-              10,
+              1,
+              3,
               18,
+              21,
               24
             ],
             "special": null,
@@ -2373,11 +2379,11 @@
             "strategy_label": "冷號策略",
             "strategy_summary": "依全部歷史出現次數，選取頻率最低的號碼",
             "numbers": [
-              18,
-              24,
-              30,
-              33,
-              34
+              9,
+              13,
+              21,
+              31,
+              36
             ],
             "special": null,
             "status": "pending"
@@ -2387,10 +2393,10 @@
             "strategy_label": "遺漏策略",
             "strategy_summary": "依目前連續未開期數，選取遺漏最久的號碼",
             "numbers": [
+              2,
+              10,
+              15,
               20,
-              22,
-              27,
-              31,
               35
             ],
             "special": null,
@@ -2401,10 +2407,10 @@
             "strategy_label": "均衡策略",
             "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
             "numbers": [
-              4,
-              11,
-              30,
-              32,
+              1,
+              3,
+              5,
+              13,
               34
             ],
             "special": null,
@@ -2415,11 +2421,11 @@
             "strategy_label": "加權隨機策略",
             "strategy_summary": "依出現頻率加權抽樣（固定種子，結果可重現）",
             "numbers": [
-              9,
-              11,
-              22,
-              34,
-              39
+              1,
+              7,
+              13,
+              27,
+              30
             ],
             "special": null,
             "status": "pending"
@@ -2427,33 +2433,207 @@
         ],
         "blind_zone": {
           "numbers": [
-            1,
-            2,
-            3,
-            5,
+            4,
             6,
-            7,
-            12,
-            13,
+            8,
+            11,
             14,
-            15,
             16,
             17,
             19,
-            21,
+            22,
             23,
-            25,
-            26,
             28,
             29,
-            36,
+            32,
+            33,
             37,
-            38
+            38,
+            39
           ],
-          "union_count": 17
+          "union_count": 22
         }
       },
       "recent_evaluated": [
+        {
+          "based_on_draw_number": "115000184",
+          "target_draw_number": "115000185",
+          "target_draw_date": "2026-07-31",
+          "predictions": [
+            {
+              "strategy": "rank_mid",
+              "strategy_label": "中位排名策略",
+              "strategy_summary": "依全部歷史出現次數排名，加權偏好中間段號碼（避開極熱與極冷）",
+              "numbers": [
+                11,
+                22,
+                27,
+                32,
+                33
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "actual_numbers": [
+                1,
+                9,
+                12,
+                25,
+                26
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "hot",
+              "strategy_label": "熱號策略",
+              "strategy_summary": "依全部歷史出現次數，選取頻率最高的號碼",
+              "numbers": [
+                4,
+                8,
+                10,
+                18,
+                24
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "actual_numbers": [
+                1,
+                9,
+                12,
+                25,
+                26
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "cold",
+              "strategy_label": "冷號策略",
+              "strategy_summary": "依全部歷史出現次數，選取頻率最低的號碼",
+              "numbers": [
+                18,
+                24,
+                30,
+                33,
+                34
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "actual_numbers": [
+                1,
+                9,
+                12,
+                25,
+                26
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "overdue",
+              "strategy_label": "遺漏策略",
+              "strategy_summary": "依目前連續未開期數，選取遺漏最久的號碼",
+              "numbers": [
+                20,
+                22,
+                27,
+                31,
+                35
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "actual_numbers": [
+                1,
+                9,
+                12,
+                25,
+                26
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "balanced",
+              "strategy_label": "均衡策略",
+              "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
+              "numbers": [
+                4,
+                11,
+                30,
+                32,
+                34
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "actual_numbers": [
+                1,
+                9,
+                12,
+                25,
+                26
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "weighted_random",
+              "strategy_label": "加權隨機策略",
+              "strategy_summary": "依出現頻率加權抽樣（固定種子，結果可重現）",
+              "numbers": [
+                9,
+                11,
+                22,
+                34,
+                39
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 1,
+              "actual_numbers": [
+                1,
+                9,
+                12,
+                25,
+                26
+              ],
+              "prize_tier": "none"
+            }
+          ],
+          "blind_zone": {
+            "numbers": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              19,
+              21,
+              23,
+              25,
+              26,
+              28,
+              29,
+              36,
+              37,
+              38
+            ],
+            "union_count": 17,
+            "actual_hits": [
+              1,
+              12,
+              25,
+              26
+            ],
+            "hit_count": 4
+          }
+        },
         {
           "based_on_draw_number": "115000183",
           "target_draw_number": "115000184",
@@ -2802,186 +2982,13 @@
             ],
             "hit_count": 4
           }
-        },
-        {
-          "based_on_draw_number": "115000181",
-          "target_draw_number": "115000182",
-          "target_draw_date": "2026-07-28",
-          "predictions": [
-            {
-              "strategy": "rank_mid",
-              "strategy_label": "中位排名策略",
-              "strategy_summary": "依全部歷史出現次數排名，加權偏好中間段號碼（避開極熱與極冷）",
-              "numbers": [
-                1,
-                4,
-                18,
-                31,
-                39
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 1,
-              "actual_numbers": [
-                5,
-                8,
-                13,
-                23,
-                31
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "hot",
-              "strategy_label": "熱號策略",
-              "strategy_summary": "依全部歷史出現次數，選取頻率最高的號碼",
-              "numbers": [
-                12,
-                18,
-                19,
-                24,
-                33
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "actual_numbers": [
-                5,
-                8,
-                13,
-                23,
-                31
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "cold",
-              "strategy_label": "冷號策略",
-              "strategy_summary": "依全部歷史出現次數，選取頻率最低的號碼",
-              "numbers": [
-                2,
-                6,
-                13,
-                28,
-                36
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 1,
-              "actual_numbers": [
-                5,
-                8,
-                13,
-                23,
-                31
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "overdue",
-              "strategy_label": "遺漏策略",
-              "strategy_summary": "依目前連續未開期數，選取遺漏最久的號碼",
-              "numbers": [
-                4,
-                6,
-                22,
-                27,
-                36
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "actual_numbers": [
-                5,
-                8,
-                13,
-                23,
-                31
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "balanced",
-              "strategy_label": "均衡策略",
-              "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
-              "numbers": [
-                2,
-                5,
-                13,
-                30,
-                34
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 2,
-              "actual_numbers": [
-                5,
-                8,
-                13,
-                23,
-                31
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "weighted_random",
-              "strategy_label": "加權隨機策略",
-              "strategy_summary": "依出現頻率加權抽樣（固定種子，結果可重現）",
-              "numbers": [
-                2,
-                4,
-                15,
-                24,
-                32
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "actual_numbers": [
-                5,
-                8,
-                13,
-                23,
-                31
-              ],
-              "prize_tier": "none"
-            }
-          ],
-          "blind_zone": {
-            "numbers": [
-              3,
-              7,
-              8,
-              9,
-              10,
-              11,
-              14,
-              16,
-              17,
-              20,
-              21,
-              23,
-              25,
-              26,
-              29,
-              35,
-              37,
-              38
-            ],
-            "union_count": 21,
-            "actual_hits": [
-              8,
-              23
-            ],
-            "hit_count": 2
-          }
         }
       ],
       "stats": {
-        "as_of_draw_number": "115000184",
-        "as_of_draw_date": "2026-07-30",
+        "as_of_draw_number": "115000185",
+        "as_of_draw_date": "2026-07-31",
         "range": "all",
-        "total_draws": 5928,
+        "total_draws": 5929,
         "hot_numbers": [
           37,
           5,
@@ -2994,7 +3001,7 @@
         ],
         "max_overdue": {
           "number": 2,
-          "draws_since": 22
+          "draws_since": 23
         },
         "frequency_top": [
           {
@@ -3019,7 +3026,7 @@
           },
           {
             "number": 1,
-            "count": 794,
+            "count": 795,
             "rank": 5
           },
           {
@@ -3049,12 +3056,12 @@
           },
           {
             "number": 25,
-            "count": 778,
+            "count": 779,
             "rank": 11
           },
           {
             "number": 12,
-            "count": 773,
+            "count": 774,
             "rank": 12
           },
           {
@@ -3076,51 +3083,46 @@
         "overdue_top": [
           {
             "number": 2,
-            "draws_since": 22
-          },
-          {
-            "number": 9,
-            "draws_since": 20
+            "draws_since": 23
           },
           {
             "number": 11,
-            "draws_since": 19
+            "draws_since": 20
           },
           {
             "number": 22,
-            "draws_since": 18
-          },
-          {
-            "number": 1,
-            "draws_since": 14
+            "draws_since": 19
           },
           {
             "number": 15,
-            "draws_since": 14
+            "draws_since": 15
           },
           {
             "number": 6,
-            "draws_since": 13
+            "draws_since": 14
           },
           {
             "number": 30,
-            "draws_since": 12
+            "draws_since": 13
           },
           {
             "number": 28,
-            "draws_since": 11
+            "draws_since": 12
           },
           {
             "number": 35,
+            "draws_since": 12
+          },
+          {
+            "number": 18,
+            "draws_since": 11
+          },
+          {
+            "number": 34,
             "draws_since": 11
           }
         ],
         "odd_even_trend": [
-          {
-            "draw_number": "115000155",
-            "odd": 0,
-            "even": 5
-          },
           {
             "draw_number": "115000156",
             "odd": 2,
@@ -3265,10 +3267,26 @@
             "draw_number": "115000184",
             "odd": 1,
             "even": 4
+          },
+          {
+            "draw_number": "115000185",
+            "odd": 3,
+            "even": 2
           }
         ]
       },
       "recent_draws": [
+        {
+          "draw_number": "115000185",
+          "draw_date": "2026-07-31",
+          "numbers": [
+            1,
+            9,
+            12,
+            25,
+            26
+          ]
+        },
         {
           "draw_number": "115000184",
           "draw_date": "2026-07-30",
@@ -3367,17 +3385,6 @@
             37,
             39
           ]
-        },
-        {
-          "draw_number": "115000175",
-          "draw_date": "2026-07-20",
-          "numbers": [
-            10,
-            12,
-            13,
-            20,
-            24
-          ]
         }
       ]
     },
@@ -3385,14 +3392,14 @@
       "game_type": "3d",
       "game_name": "三星彩",
       "draw_info": {
-        "next_draw_date": "2026-07-31",
-        "next_draw_number": "115000185",
+        "next_draw_date": "2026-08-01",
+        "next_draw_number": "115000186",
         "jackpot_kind": "fixed",
         "jackpot_value": "5,000"
       },
       "pending": {
-        "based_on_draw_number": "115000184",
-        "target_draw_number": "115000185",
+        "based_on_draw_number": "115000185",
+        "target_draw_number": "115000186",
         "predictions": [
           {
             "strategy": "hot",
@@ -3435,9 +3442,9 @@
             "strategy_label": "均衡策略",
             "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
             "numbers": [
-              9,
-              3,
-              0
+              4,
+              5,
+              8
             ],
             "special": null,
             "status": "pending"
@@ -3445,6 +3452,93 @@
         ]
       },
       "recent_evaluated": [
+        {
+          "based_on_draw_number": "115000184",
+          "target_draw_number": "115000185",
+          "target_draw_date": "2026-07-31",
+          "predictions": [
+            {
+              "strategy": "hot",
+              "strategy_label": "熱號策略",
+              "strategy_summary": "依全部歷史出現次數，選取頻率最高的號碼",
+              "numbers": [
+                6,
+                2,
+                8
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "jackpot_match": false,
+              "actual_numbers": [
+                1,
+                3,
+                9
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "cold",
+              "strategy_label": "冷號策略",
+              "strategy_summary": "依全部歷史出現次數，選取頻率最低的號碼",
+              "numbers": [
+                9,
+                1,
+                1
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "jackpot_match": false,
+              "actual_numbers": [
+                1,
+                3,
+                9
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "overdue",
+              "strategy_label": "遺漏策略",
+              "strategy_summary": "依目前連續未開期數，選取遺漏最久的號碼",
+              "numbers": [
+                3,
+                5,
+                3
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "jackpot_match": false,
+              "actual_numbers": [
+                1,
+                3,
+                9
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "balanced",
+              "strategy_label": "均衡策略",
+              "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
+              "numbers": [
+                9,
+                3,
+                0
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "jackpot_match": false,
+              "actual_numbers": [
+                1,
+                3,
+                9
+              ],
+              "prize_tier": "none"
+            }
+          ]
+        },
         {
           "based_on_draw_number": "115000183",
           "target_draw_number": "115000184",
@@ -3618,100 +3712,13 @@
               "prize_tier": "none"
             }
           ]
-        },
-        {
-          "based_on_draw_number": "115000181",
-          "target_draw_number": "115000182",
-          "target_draw_date": "2026-07-28",
-          "predictions": [
-            {
-              "strategy": "hot",
-              "strategy_label": "熱號策略",
-              "strategy_summary": "依全部歷史出現次數，選取頻率最高的號碼",
-              "numbers": [
-                6,
-                2,
-                8
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "jackpot_match": false,
-              "actual_numbers": [
-                7,
-                1,
-                6
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "cold",
-              "strategy_label": "冷號策略",
-              "strategy_summary": "依全部歷史出現次數，選取頻率最低的號碼",
-              "numbers": [
-                9,
-                1,
-                1
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "jackpot_match": false,
-              "actual_numbers": [
-                7,
-                1,
-                6
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "overdue",
-              "strategy_label": "遺漏策略",
-              "strategy_summary": "依目前連續未開期數，選取遺漏最久的號碼",
-              "numbers": [
-                3,
-                5,
-                3
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "jackpot_match": false,
-              "actual_numbers": [
-                7,
-                1,
-                6
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "balanced",
-              "strategy_label": "均衡策略",
-              "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
-              "numbers": [
-                6,
-                8,
-                0
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "jackpot_match": false,
-              "actual_numbers": [
-                7,
-                1,
-                6
-              ],
-              "prize_tier": "none"
-            }
-          ]
         }
       ],
       "stats": {
-        "as_of_draw_number": "115000184",
-        "as_of_draw_date": "2026-07-30",
+        "as_of_draw_number": "115000185",
+        "as_of_draw_date": "2026-07-31",
         "range": "all",
-        "total_draws": 5928,
+        "total_draws": 5929,
         "hot_numbers": null,
         "cold_numbers": null,
         "frequency_top": null,
@@ -3729,7 +3736,7 @@
               },
               {
                 "number": 1,
-                "count": 626,
+                "count": 627,
                 "rank": 2
               },
               {
@@ -3776,43 +3783,43 @@
             "overdue_top": [
               {
                 "number": 3,
-                "draws_since": 5927
+                "draws_since": 5928
               },
               {
                 "number": 6,
-                "draws_since": 5926
+                "draws_since": 5927
               },
               {
                 "number": 2,
-                "draws_since": 5925
+                "draws_since": 5926
               },
               {
                 "number": 0,
-                "draws_since": 5924
+                "draws_since": 5925
               },
               {
                 "number": 7,
-                "draws_since": 5923
+                "draws_since": 5924
               },
               {
                 "number": 4,
-                "draws_since": 5921
+                "draws_since": 5922
               },
               {
                 "number": 5,
-                "draws_since": 5918
+                "draws_since": 5919
               },
               {
                 "number": 9,
-                "draws_since": 5906
+                "draws_since": 5907
               },
               {
                 "number": 1,
-                "draws_since": 5905
+                "draws_since": 5906
               },
               {
                 "number": 8,
-                "draws_since": 5890
+                "draws_since": 5891
               }
             ],
             "hot_numbers": [
@@ -3842,7 +3849,7 @@
               },
               {
                 "number": 3,
-                "count": 612,
+                "count": 613,
                 "rank": 3
               },
               {
@@ -3884,43 +3891,43 @@
             "overdue_top": [
               {
                 "number": 5,
-                "draws_since": 5927
+                "draws_since": 5928
               },
               {
                 "number": 9,
-                "draws_since": 5926
+                "draws_since": 5927
               },
               {
                 "number": 1,
-                "draws_since": 5925
+                "draws_since": 5926
               },
               {
                 "number": 3,
-                "draws_since": 5924
+                "draws_since": 5925
               },
               {
                 "number": 0,
-                "draws_since": 5923
+                "draws_since": 5924
               },
               {
                 "number": 7,
-                "draws_since": 5920
+                "draws_since": 5921
               },
               {
                 "number": 4,
-                "draws_since": 5912
+                "draws_since": 5913
               },
               {
                 "number": 2,
-                "draws_since": 5909
+                "draws_since": 5910
               },
               {
                 "number": 6,
-                "draws_since": 5901
+                "draws_since": 5902
               },
               {
                 "number": 8,
-                "draws_since": 5895
+                "draws_since": 5896
               }
             ],
             "hot_numbers": [
@@ -3970,7 +3977,7 @@
               },
               {
                 "number": 9,
-                "count": 591,
+                "count": 592,
                 "rank": 7
               },
               {
@@ -3992,43 +3999,43 @@
             "overdue_top": [
               {
                 "number": 3,
-                "draws_since": 5927
+                "draws_since": 5928
               },
               {
                 "number": 4,
-                "draws_since": 5926
+                "draws_since": 5927
               },
               {
                 "number": 0,
-                "draws_since": 5925
+                "draws_since": 5926
               },
               {
                 "number": 9,
-                "draws_since": 5924
+                "draws_since": 5925
               },
               {
                 "number": 7,
-                "draws_since": 5922
+                "draws_since": 5923
               },
               {
                 "number": 8,
-                "draws_since": 5919
+                "draws_since": 5920
               },
               {
                 "number": 6,
-                "draws_since": 5915
+                "draws_since": 5916
               },
               {
                 "number": 1,
-                "draws_since": 5908
+                "draws_since": 5909
               },
               {
                 "number": 5,
-                "draws_since": 5906
+                "draws_since": 5907
               },
               {
                 "number": 2,
-                "draws_since": 5903
+                "draws_since": 5904
               }
             ],
             "hot_numbers": [
@@ -4045,6 +4052,15 @@
         ]
       },
       "recent_draws": [
+        {
+          "draw_number": "115000185",
+          "draw_date": "2026-07-31",
+          "numbers": [
+            1,
+            3,
+            9
+          ]
+        },
         {
           "draw_number": "115000184",
           "draw_date": "2026-07-30",
@@ -4125,15 +4141,6 @@
             1,
             8
           ]
-        },
-        {
-          "draw_number": "115000175",
-          "draw_date": "2026-07-20",
-          "numbers": [
-            3,
-            0,
-            1
-          ]
         }
       ]
     },
@@ -4141,14 +4148,14 @@
       "game_type": "4d",
       "game_name": "四星彩",
       "draw_info": {
-        "next_draw_date": "2026-07-31",
-        "next_draw_number": "115000185",
+        "next_draw_date": "2026-08-01",
+        "next_draw_number": "115000186",
         "jackpot_kind": "fixed",
         "jackpot_value": "50,000"
       },
       "pending": {
-        "based_on_draw_number": "115000184",
-        "target_draw_number": "115000185",
+        "based_on_draw_number": "115000185",
+        "target_draw_number": "115000186",
         "predictions": [
           {
             "strategy": "hot",
@@ -4194,10 +4201,10 @@
             "strategy_label": "均衡策略",
             "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
             "numbers": [
+              8,
               0,
-              5,
               0,
-              4
+              0
             ],
             "special": null,
             "status": "pending"
@@ -4205,6 +4212,101 @@
         ]
       },
       "recent_evaluated": [
+        {
+          "based_on_draw_number": "115000184",
+          "target_draw_number": "115000185",
+          "target_draw_date": "2026-07-31",
+          "predictions": [
+            {
+              "strategy": "hot",
+              "strategy_label": "熱號策略",
+              "strategy_summary": "依全部歷史出現次數，選取頻率最高的號碼",
+              "numbers": [
+                6,
+                4,
+                6,
+                3
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "jackpot_match": false,
+              "actual_numbers": [
+                7,
+                1,
+                9,
+                8
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "cold",
+              "strategy_label": "冷號策略",
+              "strategy_summary": "依全部歷史出現次數，選取頻率最低的號碼",
+              "numbers": [
+                8,
+                0,
+                0,
+                2
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "jackpot_match": false,
+              "actual_numbers": [
+                7,
+                1,
+                9,
+                8
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "overdue",
+              "strategy_label": "遺漏策略",
+              "strategy_summary": "依目前連續未開期數，選取遺漏最久的號碼",
+              "numbers": [
+                8,
+                8,
+                9,
+                4
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "jackpot_match": false,
+              "actual_numbers": [
+                7,
+                1,
+                9,
+                8
+              ],
+              "prize_tier": "none"
+            },
+            {
+              "strategy": "balanced",
+              "strategy_label": "均衡策略",
+              "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
+              "numbers": [
+                0,
+                5,
+                0,
+                4
+              ],
+              "special": null,
+              "status": "evaluated",
+              "main_hit": 0,
+              "jackpot_match": false,
+              "actual_numbers": [
+                7,
+                1,
+                9,
+                8
+              ],
+              "prize_tier": "none"
+            }
+          ]
+        },
         {
           "based_on_draw_number": "115000183",
           "target_draw_number": "115000184",
@@ -4394,108 +4496,13 @@
               "prize_tier": "none"
             }
           ]
-        },
-        {
-          "based_on_draw_number": "115000181",
-          "target_draw_number": "115000182",
-          "target_draw_date": "2026-07-28",
-          "predictions": [
-            {
-              "strategy": "hot",
-              "strategy_label": "熱號策略",
-              "strategy_summary": "依全部歷史出現次數，選取頻率最高的號碼",
-              "numbers": [
-                6,
-                4,
-                6,
-                3
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 1,
-              "jackpot_match": false,
-              "actual_numbers": [
-                0,
-                4,
-                3,
-                3
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "cold",
-              "strategy_label": "冷號策略",
-              "strategy_summary": "依全部歷史出現次數，選取頻率最低的號碼",
-              "numbers": [
-                8,
-                0,
-                0,
-                2
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "jackpot_match": false,
-              "actual_numbers": [
-                0,
-                4,
-                3,
-                3
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "overdue",
-              "strategy_label": "遺漏策略",
-              "strategy_summary": "依目前連續未開期數，選取遺漏最久的號碼",
-              "numbers": [
-                8,
-                8,
-                9,
-                4
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "jackpot_match": false,
-              "actual_numbers": [
-                0,
-                4,
-                3,
-                3
-              ],
-              "prize_tier": "none"
-            },
-            {
-              "strategy": "balanced",
-              "strategy_label": "均衡策略",
-              "strategy_summary": "冷熱、遺漏、奇偶與區間分布綜合平衡",
-              "numbers": [
-                6,
-                9,
-                5,
-                6
-              ],
-              "special": null,
-              "status": "evaluated",
-              "main_hit": 0,
-              "jackpot_match": false,
-              "actual_numbers": [
-                0,
-                4,
-                3,
-                3
-              ],
-              "prize_tier": "none"
-            }
-          ]
         }
       ],
       "stats": {
-        "as_of_draw_number": "115000184",
-        "as_of_draw_date": "2026-07-30",
+        "as_of_draw_number": "115000185",
+        "as_of_draw_date": "2026-07-31",
         "range": "all",
-        "total_draws": 5928,
+        "total_draws": 5929,
         "hot_numbers": null,
         "cold_numbers": null,
         "frequency_top": null,
@@ -4538,7 +4545,7 @@
               },
               {
                 "number": 7,
-                "count": 582,
+                "count": 583,
                 "rank": 7
               },
               {
@@ -4560,43 +4567,43 @@
             "overdue_top": [
               {
                 "number": 8,
-                "draws_since": 5927
+                "draws_since": 5928
               },
               {
                 "number": 3,
-                "draws_since": 5926
+                "draws_since": 5927
               },
               {
                 "number": 5,
-                "draws_since": 5925
+                "draws_since": 5926
               },
               {
                 "number": 9,
-                "draws_since": 5924
+                "draws_since": 5925
               },
               {
                 "number": 6,
-                "draws_since": 5922
+                "draws_since": 5923
               },
               {
                 "number": 7,
-                "draws_since": 5920
+                "draws_since": 5921
               },
               {
                 "number": 2,
-                "draws_since": 5919
+                "draws_since": 5920
               },
               {
                 "number": 1,
-                "draws_since": 5913
+                "draws_since": 5914
               },
               {
                 "number": 4,
-                "draws_since": 5911
+                "draws_since": 5912
               },
               {
                 "number": 0,
-                "draws_since": 5899
+                "draws_since": 5900
               }
             ],
             "hot_numbers": [
@@ -4651,7 +4658,7 @@
               },
               {
                 "number": 1,
-                "count": 580,
+                "count": 581,
                 "rank": 8
               },
               {
@@ -4668,43 +4675,43 @@
             "overdue_top": [
               {
                 "number": 8,
-                "draws_since": 5927
+                "draws_since": 5928
               },
               {
                 "number": 7,
-                "draws_since": 5926
+                "draws_since": 5927
               },
               {
                 "number": 5,
-                "draws_since": 5925
+                "draws_since": 5926
               },
               {
                 "number": 0,
-                "draws_since": 5923
+                "draws_since": 5924
               },
               {
                 "number": 4,
-                "draws_since": 5921
+                "draws_since": 5922
               },
               {
                 "number": 6,
-                "draws_since": 5920
+                "draws_since": 5921
               },
               {
                 "number": 1,
-                "draws_since": 5919
+                "draws_since": 5920
               },
               {
                 "number": 2,
-                "draws_since": 5913
+                "draws_since": 5914
               },
               {
                 "number": 3,
-                "draws_since": 5911
+                "draws_since": 5912
               },
               {
                 "number": 9,
-                "draws_since": 5899
+                "draws_since": 5900
               }
             ],
             "hot_numbers": [
@@ -4744,7 +4751,7 @@
               },
               {
                 "number": 9,
-                "count": 593,
+                "count": 594,
                 "rank": 5
               },
               {
@@ -4776,43 +4783,43 @@
             "overdue_top": [
               {
                 "number": 9,
-                "draws_since": 5927
+                "draws_since": 5928
               },
               {
                 "number": 6,
-                "draws_since": 5926
+                "draws_since": 5927
               },
               {
                 "number": 1,
-                "draws_since": 5924
+                "draws_since": 5925
               },
               {
                 "number": 8,
-                "draws_since": 5923
+                "draws_since": 5924
               },
               {
                 "number": 5,
-                "draws_since": 5921
+                "draws_since": 5922
               },
               {
                 "number": 4,
-                "draws_since": 5919
+                "draws_since": 5920
               },
               {
                 "number": 2,
-                "draws_since": 5917
+                "draws_since": 5918
               },
               {
                 "number": 7,
-                "draws_since": 5915
+                "draws_since": 5916
               },
               {
                 "number": 0,
-                "draws_since": 5911
+                "draws_since": 5912
               },
               {
                 "number": 3,
-                "draws_since": 5910
+                "draws_since": 5911
               }
             ],
             "hot_numbers": [
@@ -4837,7 +4844,7 @@
               },
               {
                 "number": 8,
-                "count": 609,
+                "count": 610,
                 "rank": 2
               },
               {
@@ -4884,43 +4891,43 @@
             "overdue_top": [
               {
                 "number": 4,
-                "draws_since": 5927
+                "draws_since": 5928
               },
               {
                 "number": 1,
-                "draws_since": 5926
+                "draws_since": 5927
               },
               {
                 "number": 6,
-                "draws_since": 5925
+                "draws_since": 5926
               },
               {
                 "number": 5,
-                "draws_since": 5923
+                "draws_since": 5924
               },
               {
                 "number": 3,
-                "draws_since": 5920
+                "draws_since": 5921
               },
               {
                 "number": 2,
-                "draws_since": 5919
+                "draws_since": 5920
               },
               {
                 "number": 7,
-                "draws_since": 5915
+                "draws_since": 5916
               },
               {
                 "number": 9,
-                "draws_since": 5914
+                "draws_since": 5915
               },
               {
                 "number": 8,
-                "draws_since": 5910
+                "draws_since": 5911
               },
               {
                 "number": 0,
-                "draws_since": 5893
+                "draws_since": 5894
               }
             ],
             "hot_numbers": [
@@ -4937,6 +4944,16 @@
         ]
       },
       "recent_draws": [
+        {
+          "draw_number": "115000185",
+          "draw_date": "2026-07-31",
+          "numbers": [
+            7,
+            1,
+            9,
+            8
+          ]
+        },
         {
           "draw_number": "115000184",
           "draw_date": "2026-07-30",
@@ -5025,16 +5042,6 @@
             7,
             5,
             7
-          ]
-        },
-        {
-          "draw_number": "115000175",
-          "draw_date": "2026-07-20",
-          "numbers": [
-            4,
-            0,
-            1,
-            4
           ]
         }
       ]
