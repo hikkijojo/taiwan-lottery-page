@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:00:02+08:00",
+  "generated_at": "2026-08-15T00:00:00+08:00",
   "disclaimer": "以下號碼依歷史統計產生，僅供娛樂參考，不保證中獎。",
   "games": [
     {
@@ -1181,8 +1181,8 @@
       "draw_info": {
         "next_draw_date": "2026-08-18",
         "next_draw_number": "115000080",
-        "jackpot_kind": "guaranteed",
-        "jackpot_value": "1.0億"
+        "jackpot_kind": "upto",
+        "jackpot_value": "1.2億"
       },
       "pending": {
         "based_on_draw_number": "115000079",
